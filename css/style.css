@@ -1,0 +1,237 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*global css code start*/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+/*global css end*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding:15px 0px;
+	border-bottom: 1px solid #eee;
+}
+.menu{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+.menu li a{
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0px 0px 0px 15px ;
+	color: #0F2656;
+}
+.menu li a:hover{
+	color: #008AFF;
+}
+/*online-section code start*/
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	text-align: center;
+}
+.online-section h1{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+.online-section h1 span{
+	color: #008AFF;
+}
+.online-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+
+/*online-section code end*/
+/*online-section code start*/
+.success-section .title{
+	font-size: 40px;
+	text-align: right;
+	line-height: 60px;
+	font-weight: 700;
+	color: #F15767;
+	margin-bottom: 10px;
+	padding-right: 30px;
+}
+.success-section .desc{
+	font-size: 14px;
+	text-align: right;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+
+.success-section .right-title{
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #0F2656;
+	margin-bottom: 10px;
+	padding-left: 30px;
+}
+
+/*online-section code end*/
+/*feature-section code start*/
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 40px 0px 60px;
+}
+.inner-feature{
+	width: 80%;
+	margin: 0px 15px;
+	float: left;
+	padding: 20px 15px;
+	background: #FDEBED ;
+}
+.inner-feature img{
+	width: 100%;
+	height:200px ;
+	margin-bottom: 10px;
+}
+.inner-feature h4{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #0F2656;
+	margin-bottom: 5px;
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+
+/*feature-section code end*/
+/*footer-section code start*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008AFF;
+	text-align: center;
+}
+.footer-section p{
+	font-size: 12px;
+	font-weight: 400;
+	color: #9FCCFF;
+}
+.footer-section p a{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+/*footer-section code end*/
+/*page-section code start*/
+.page-section{
+	width: 100%;
+	padding: ;
+}
+/*page-section code end*/
+/*page-section code start*/
+.page-section h1{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+
+.page-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #0F2656;
+	margin-bottom: 10px;
+}
+/*page-section code end*/
+
+ /*Most of the mobile phones
+ 	skin resulation will be 320px to 480px*/
+
+ 	@media ( min-width:  320px) and ( max-width:  480px){
+ 		.container{
+			width: 100%;
+			margin: 0px auto;
+		}
+		.online-section h1{
+			font-size: 30px;
+			line-height: 40px;
+			font-weight: 700;
+			color: #0F2656;
+			margin-bottom: 10px;
+		}
+		.online-section p{
+			font-size: 14px;
+		}
+ 	}
+
+ 	/*Most of the mobile phones in landscape mood & low resulation
+ 	skin resulation will be 481px to 767px*/
+
+ 	@media ( min-width:  481px) and ( max-width:  767px){
+
+ 		.container{
+			width: 80%;
+			margin: 0px auto;
+		}
+ 	}
+
+ 	/*Most of the tablet, ipad, & notebooks
+ 	skin resulation will be 768px to 1024px*/
+
+ 	@media ( min-width:  768px) and ( max-width:  1024px){
+ 		.container{
+			width: 80%;
+			margin: 0px auto;
+		}
+ 		
+ 	}
